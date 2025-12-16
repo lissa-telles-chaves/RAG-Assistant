@@ -135,8 +135,8 @@ with st.sidebar:
 # -----------------------------------------------------------------------------
 # Main App Header
 # -----------------------------------------------------------------------------
-st.title("📖 TOPIC RAG Assistant")
-st.markdown("Ask questions about the TOPIC and get AI-powered answers based on curated content.")
+st.title("📖 ESG RAG Assistant")
+st.markdown("Ask questions about the ESG and get AI-powered answers based on curated content.")
 
 # -----------------------------------------------------------------------------
 # Database Connection
@@ -196,7 +196,7 @@ for message in st.session_state.messages:
 # st.chat_input returns None until user submits, then returns their text
 # The := (walrus operator) assigns AND checks in one line
 
-if prompt := st.chat_input("Ask a question about Corporate Finance..."):
+if prompt := st.chat_input("Ask a question about ESG..."):
     
     # TO DO: Add user message to history
     st.session_state.messages.append({"role":"user","content":prompt})
