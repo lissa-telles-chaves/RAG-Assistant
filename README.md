@@ -5,7 +5,7 @@ ESG has shifted from "voluntary marketing" to "mandatory financial risk."
 #### ♻️**Problem Statement**: 
 Manual data retrieval is not only a massive drain on high-value human capital but also introduces error. In an era of anti-greenwashing litigation, a single data oversight can lead to multi-million dollar fines and reputational ruin. This RAG Assistant condences all this information, enabling users to instantly retrieve cited insights from reliable corpuses, transforming a 10-hour manual audit into a 10-second query.
 ## 🏗️Architecture diagram
-
+![Alt text](https://share.icloud.com/photos/0ce6njC1yvWCRrSlaAHhXypGQ)
 ## 📚 Document collection summary (what documents and why).
 Recognizing that data quality is the primary determinant of model performance, this project utilizes a curated corpus of high-authority sources. The knowledge base is built upon a foundation of peer-reviewed academic research, foundational business texts, and industry-leading financial reporting.
 ### Why these sources:
