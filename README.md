@@ -2,11 +2,11 @@
 ## 🌐Domain overview and problem statement.
 #### ♻️**Domain**: ESG
 ESG has shifted from "voluntary marketing" to "mandatory financial risk."
-#### ♻️**Problem Statement**: 
+#### **Problem Statement**: 
 Manual data retrieval is not only a massive drain on high-value human capital but also introduces error. In an era of anti-greenwashing litigation, a single data oversight can lead to multi-million dollar fines and reputational ruin. This RAG Assistant condences all this information, enabling users to instantly retrieve cited insights from reliable corpuses, transforming a 10-hour manual audit into a 10-second query.
 ## 🏗️Architecture diagram
-![Alt text](https://share.icloud.com/photos/0ce6njC1yvWCRrSlaAHhXypGQ)
-## 📚 Document collection summary (what documents and why).
+![D08E5F05-3C6F-4C6E-8280-7DA2113E6A07](https://github.com/user-attachments/assets/d2bd2e8c-7e85-42bc-b36c-3de683f55b22)
+## 📚 Document collection summary
 Recognizing that data quality is the primary determinant of model performance, this project utilizes a curated corpus of high-authority sources. The knowledge base is built upon a foundation of peer-reviewed academic research, foundational business texts, and industry-leading financial reporting.
 ### Why these sources:
 - **Foundational Literature**: Provide frameworks and establish the philosophical and strategic foundations of the field.
@@ -35,7 +35,7 @@ Recognizing that data quality is the primary determinant of model performance, t
     - Business Chief North America
     - Promarket
     - B Corporation   
-## Agent configuration details (role, goal, backstory) with rationale.
+## Agent configuration details
     🎭 Role: ESG Content Assistant
     🥅 Goal:Answer questions about ESG using the database
     🦴 Backstory:You are an expert who has access to a database with content about ESG
